@@ -1,5 +1,5 @@
 //Add this CSS
-
+<style>
 .owl-carousel-global li {
   min-width: 100%;
   height: 45vh !important;
@@ -40,7 +40,7 @@
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #ced200;
 }
-
+</style>
 
 // Repeater code
 
@@ -65,7 +65,7 @@
 
 
 //Init file
-
+<script>
 $('.owl-carousel-global').owlCarousel({
   loop: true,
   margin: 0,
@@ -89,3 +89,4 @@ $('.owl-carousel-global').owlCarousel({
     }
   }
 });
+<script>
